@@ -1,24 +1,19 @@
-# Dillinger
-## _The Last Markdown Editor, Ever_
+# Projeto "BNG WEB"
+Projeto produzido em ASP.NET EntityFramework WEBAPI, C#, Domain Drive Design e React JS. 
+- Parte de Back-end "C#, WEBAPI e DDD ('Domain, Drive, Design')".
+- Parte de Front-end "React JS".
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+## Publicação da página
+Para que o projeto seja publicado, será necessário a utilização do comando **NPM RUN BUILDEXT**.
+Este comando pode ser executado na pasta local do projeto, onde será gerado uma pasta com vários arquivos. 
+Essa pasta é a bin, onde você deve copiar todos os arquivos gerado nela na pasta de produção do **IIS** onde o SITE será executado. 
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+Para a publicação da **API** será necessário a configuração do visual studio e essa configuração será realizada no projeto **webapi**, onde será configurado a publicação na pasta de execução do **IIS**.
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
-AngularJS-powered HTML5 Markdown editor.
 
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
 
-## Features
 
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
+
 
 Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
